@@ -5,7 +5,7 @@ import json
 import os
 from discord.ui import InputText, Modal
 
-ALLOWED_USER_IDS = [672804887524016138, 598194942724145203, 726484913599152179]
+ALLOWED_USER_IDS = [] # Insert user ID's to be allowed to delete skins from main database.
 
 class SkinInputModal(Modal):
     def __init__(self):
